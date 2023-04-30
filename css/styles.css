@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     transition: all .7s ease-in-out;
+    transition-delay: .05s;
 }
 #sec1 {
     background-image: url(bg.jpg);
@@ -264,7 +265,8 @@
     background-color: #eeeeee;
     color: #E7776B;
     border: 2px dotted #E7776B;
-}
+    transform: translateY(2px);
+} 
 #sec8 {
     
     background-color: #E8766B;
